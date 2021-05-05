@@ -5,6 +5,11 @@
 }
 
 #wrapper {
-  background-color: violet;
+  background-color: BurlyWood;
   height: 100vh;
+}
+
+.txt-container p,
+.txt-container button {
+  color: CadetBlue;
 }

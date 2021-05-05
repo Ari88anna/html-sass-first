@@ -6,11 +6,18 @@
 }
 
 // Variabili
-$title_btn_color: violet;
+$title_btn_color: CadetBlue;
+
 
 // Wrapper
 #wrapper {
-    background-color: $title_btn_color;
+    background-color: BurlyWood;
     height: 100vh;
-}
+}   
 
+
+
+.txt-container p,
+.txt-container button {
+    color: $title_btn_color;
+}
