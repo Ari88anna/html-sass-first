@@ -9,6 +9,11 @@
   height: 100vh;
 }
 
+.txt-container,
+.txt-container button {
+  padding: 10px 10px;
+}
+
 .txt-container p,
 .txt-container button {
   color: CadetBlue;

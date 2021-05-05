@@ -6,16 +6,23 @@
 }
 
 // Variabili
+$main_color: BurlyWood;
 $title_btn_color: CadetBlue;
+$padding: 10px 10px;
+
 
 
 // Wrapper
 #wrapper {
-    background-color: BurlyWood;
+    background-color: $main_color;
     height: 100vh;
 }   
 
 
+.txt-container,
+.txt-container button {
+    padding: $padding;
+}
 
 .txt-container p,
 .txt-container button {
